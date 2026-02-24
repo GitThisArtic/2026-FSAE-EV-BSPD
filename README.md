@@ -2,7 +2,7 @@
 ## BSE SENSOR
 The BSE input into the BSE Logic section of the BSPD has a maximum input range of up to 12V. A voltage input range between 527mV and 4.473V is considered to be the normal operating range (i.e. no hard breaking). Outside of these ranges the input is considered to be either nonfunctional for a voltage < 527mV or in a state of hard breaking for a voltage > 4.473V. The determination of the current braking is done by measuring the input voltage across an LM2903B dual comparator. If the input voltage falls outside the specified range, the car is determined to be hard braking and a signal is passed through the BSE logic.
 
-## TRACTIVE SYSTEM LOGIC
+## TRACTIVE SYSTEM LOGIC [Values still need to be measured]
 The tractive system current is determined based on the current input voltage of the throttle pedal. With a current of a tractive system current of _____ around at ____kW supplied to the motors under the 403.2V tractive system voltage. [Values still need to be measured]
 
 ## BSPD LOGIC
